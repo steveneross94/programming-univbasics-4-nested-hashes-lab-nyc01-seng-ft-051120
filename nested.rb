@@ -1,7 +1,5 @@
-require 'pry'
 
-def hopper
-	programmer_hash =
+def hopper	programmer_hash =
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -108,7 +106,7 @@ def changing_alan
       }
     }
 programmer_hash[:alan_kay][:known_for] = "GUI"
-binding.pry
+
 end
 
 def adding_to_dennis
